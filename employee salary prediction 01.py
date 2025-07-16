@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 #Employee Salary Prediction using adultcsv
 #load your library
 import pandas as pd
@@ -306,12 +300,6 @@ for name, model in models.items():
     print(f"{name} Accuracy: {acc:.4f}")
     print(classification_report(y_test, y_pred))
 
-
-
-
-
-
-# In[ ]:
 
 
 
